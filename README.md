@@ -1,5 +1,5 @@
 # CapitecDemo
-Shopping_car_challenge:
+Shopping_cart_challenge:
 Automated test suite for UI and API testing using [Playwright](https://playwright.dev).  
 This project is built for validating the functionality of an e-commerce-like platform (`saucedemo.com`) and a RESTful booking API (`restful-booker.herokuapp.com`).
 
