@@ -14,6 +14,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Debug working directory and files
+        run: |
+          echo "Current working directory:"
+          pwd
+          echo "List all files recursively:"
+          ls -R
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
